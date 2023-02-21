@@ -1,0 +1,148 @@
+<html>
+<head>
+</head>
+
+<style>
+
+h1 {
+background-color: #80dbe5;
+padding:5px;
+padding-left:30px;
+padding-top:18px;
+position: float;
+top :1px;
+left:0px;
+height:55px;
+width:1215px;
+text-align :centre;
+font-family:arial,verdana,helvetica;
+font-size:40px;
+border-color:#2514b9;
+border-width:15px;
+border-left-style:solid;
+text-shadow: 1px 1px;
+}
+
+.a {
+background-color: #80dbe5;
+padding:5px;
+padding-left:30px;
+padding-top:18px;
+position: float;
+top:450px;
+left:8px;
+height:55px;
+width:1215px;
+text-align :centre;
+font-family:arial,verdana,helvetica;
+font-size:40px;
+border-color:#2514b9;
+border-width:15px;
+border-left-style:solid;
+text-shadow: 1px 1px ;
+}
+
+a:link {
+color:black;
+border-style: solid;
+border-width:2px;
+padding:10px;
+position:absolute;
+top:25px;
+left:900px;
+background-color:#d1d0da;
+font-family:georgia;
+text-decoration:none;
+font-weight:bold;
+font-size:20px;
+border-radius:10px;
+box-shadow:2px 2px;
+}
+
+a:hover{
+filter:brightness(50%);
+}
+
+
+a.first:link {
+color:black;
+border-style: solid;
+border-width:2px;
+padding:10px;
+position:absolute;
+top:25px;
+left:1020px;
+background-color:#d1d0da;
+font-family:georgia;
+text-decoration:none;
+font-weight:bold;
+}
+
+a.second:link {
+color:black;
+border-style: solid;
+border-width:2px;
+padding:10px;
+position:absolute;
+top:25px;
+left:1140px;
+background-color:#d1d0da;
+font-family:georgia;
+text-decoration:none;
+font-weight:bold;
+}
+
+p{
+font-weight:bold;
+font-family:arial,verdana,helvetica;
+font-size:50px;
+position:absolute;
+top:110px;
+left:200px;
+white-space:pre-line;
+
+}
+
+.highlight{
+color:green;
+font-size:60px;
+text-shadow: 1px 1px;
+}
+
+.b{
+font-size:25px;
+position:fixed;
+left:400px;
+top:482px;
+font-family:georgia;
+
+}
+
+img{
+position:absolute;
+left:800px;
+height:300px;
+}
+
+</style>
+<body>
+<h1> SHUBHAM </h1>
+
+<a href="HOME.html"> HOME </a>
+<a class="first" href="WORK.html"> WORK </a>
+<a class="second" href="ABOUT.html"> ABOUT </a>
+
+<p> <span class="highlight">Hello! </span>
+I'm Shubham,
+a software developer 
+based in New york.
+</p> 
+
+<p class="a">Contact Us ::</p>
+
+<p class="b">(212) 676-6666 | example123@gmail.com </p>
+
+<img src="download.jfif">
+
+</body>
+</html>
